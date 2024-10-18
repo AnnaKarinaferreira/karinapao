@@ -1,27 +1,19 @@
 @import url('https://fonts.cdnfonts.com/css/cs-harley?styles=27045');
                                 
 *{
-    background-color: #d2e0ed;
+    background-color: #F5EDED;
 }
 
 .titulonome {
     font-size: clamp(2rem, 5vw, 5rem);  /* Ajuste a ordem para priorizar tamanhos menores em telas pequenas */
-    margin-bottom: 0.5rem;              /* Ajuste a margem para melhorar a responsividade */
+    margin-bottom: 0.5rem;  
+    color: #beb8b6;            /* Ajuste a margem para melhorar a responsividade */
     margin-top: 5rem;
     margin-bottom: 4rem;
     margin-left: 2rem;
     font-family: 'CS Harley', sans-serif;
 }
 
-
-.Header a {
-    background-color: black;
-    padding-left: clamp(1rem, 5vw, 5rem); 
-    margin-top: clamp(1rem, 3vh, 3rem);    
-    padding-top: clamp(1rem, 3vh, 3rem);    
-    margin-left: 2rem;
-    padding-bottom: clamp(1rem, 2vh, 2rem); 
-}
 
 .container{
     display: flex;
@@ -42,22 +34,34 @@
 }
 
 .subtitulonome {
-    font-size: clamp(4rem, 10vw, 10rem); /* Similar ajuste para o subtítulo */
-    margin-top: 1rem;                    /* Margem superior mais responsiva */
+    font-size: clamp(4rem, 9vw, 9rem); /* Similar ajuste para o subtítulo */
+    margin-top: 1rem;     
+    color: #beb8b6;               /* Margem superior mais responsiva */
     margin-bottom: 0.5rem;               /* Margem inferior mais leve */
     font-family: 'CS Harley', sans-serif;
     flex: 1;       
     margin-left: 2rem;
     margin-left: 2px;   
     padding: 1rem;        /* Adiciona um pouco de espaçamento interno */
-    border: 1px solid black; /* Adiciona uma borda para visualização */
+   /* border: 1px solid black; /* Adiciona uma borda para visualização */
     
 }
 
 .imagem{
     flex: 1;       
-    width: 100%;   
+    width: 70%;   
     padding: 1rem;    
-    margin-left: 2rem;   
-    border: 1px solid black; /* Adiciona uma borda para visualização */
+    margin-left: 2rem;  
+    opacity:85%;
+    /*border: 1px solid black; /* Adiciona uma borda para visualização */
+}
+
+.alinhamentolinks{
+    margin-left: 3rem;
+}
+
+.link1, 
+.link2 {
+    display: inline-block; /* Permite que os elementos fiquem lado a lado */
+    margin-right: 4rem; /* Espaçamento opcional entre os links */
 }
