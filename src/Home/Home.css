@@ -5,12 +5,12 @@
 }
 
 .titulonome {
-    font-size: clamp(2rem, 5vw, 5rem);  /* Ajuste a ordem para priorizar tamanhos menores em telas pequenas */
+    font-size: clamp(4rem, 9vw, 9rem); /* Similar ajuste para o subtítulo */
     margin-bottom: 0.5rem;  
     color: #beb8b6;            /* Ajuste a margem para melhorar a responsividade */
     margin-top: 5rem;
     margin-bottom: 4rem;
-    margin-left: 2rem;
+    margin-left: 15%;
     font-family: 'CS Harley', sans-serif;
 }
 
@@ -42,9 +42,7 @@
     flex: 1;       
     margin-left: 2rem;
     margin-left: 2px;   
-    padding: 1rem;        /* Adiciona um pouco de espaçamento interno */
-   /* border: 1px solid black; /* Adiciona uma borda para visualização */
-    
+    padding: 1rem;     
 }
 
 .imagem{
@@ -56,12 +54,18 @@
     /*border: 1px solid black; /* Adiciona uma borda para visualização */
 }
 
-.alinhamentolinks{
+.alinhamentolinks {
+    position: static; 
+    position: fixed;
     margin-left: 3rem;
+    background-color:transparen;
+    /*filter: blur(1px);*/
+    width: 110%;
+    margin-top: 3%;
 }
-
 .link1, 
 .link2 {
     display: inline-block; /* Permite que os elementos fiquem lado a lado */
     margin-right: 4rem; /* Espaçamento opcional entre os links */
+    margin-left: 2%;
 }
