@@ -9,6 +9,7 @@ import img01 from './img01.png';
 const Home = () => {
     return (
     <>
+    <section>
     <div className='geral'>
            <div className='alinhamentolinks'>
            <p className='link1'><a href="">Portfolio Senai</a></p>
@@ -29,7 +30,16 @@ const Home = () => {
             </div>
         </div>
         </div>
-           
+    </section>
+
+    <section>
+        <p className='sobremim'>Sobre mim...</p>
+        
+    </section>
+
+    <section>
+    <p className='sobremim'>Skills</p>
+    </section>
         </>
     )
 }
