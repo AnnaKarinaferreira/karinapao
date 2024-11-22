@@ -4,7 +4,7 @@
                 
 
 * {
-    background-color: #F5EDED;
+    background-color: #ffffff;
 }
 
 .titulonome {
@@ -76,12 +76,12 @@ hr{
 
 .alinhamentolinks {
     position: static;
-    position: fixed;
     margin-left: 3rem;
     border-radius: 4rem;
     /*filter: blur(1px);*/
-    width: 110%;
-    margin-top: 3%;
+    width: 150%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
     color: #747bff;
 }
 

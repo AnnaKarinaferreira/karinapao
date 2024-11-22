@@ -38,12 +38,12 @@ const Home = () => {
             </section>
 
             <section>
-                <p className='sobremim'>Skills</p>
+                <p className='sobremim'>Habilidades</p>
                 <ol>
                     <li >
                         <div class="icon"><i class="fa-solid fa-bicycle"></i></div>
-                        <div class="title">Step 1</div>
-                        <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, porro.</div>
+                        <div class="title">Sistemas Linux</div>
+                        <div class="descr"><a href="https://www.canva.com/design/DAFxtzae3DQ/UyEX-KM92Ema_Elz1Eyj6A/view?utm_content=DAFxtzae3DQ&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel">Certificação</a></div>
                     </li>
                     <li >
                         <div class="icon"><i class="fa-solid fa-car"></i></div>
